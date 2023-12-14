@@ -19,11 +19,11 @@ async function run(){
         routes(app)
     } catch (error) {
         console.log(error);
-        await prisma.$disconnect()
+        // await prisma.$disconnect()
         process.exit()
     }
 }
 
 run().then(async ()=>{
-    await prisma.$disconnect()
+    // await prisma.$disconnect()
 })
