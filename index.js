@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 
 // import packets from file
 import routes from './startup/routers.js';
-import prisma from './startup/db.js';
+// import prisma from './startup/db.js';
 
 dotenv.config()
 const app = express();

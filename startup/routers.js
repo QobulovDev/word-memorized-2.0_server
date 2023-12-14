@@ -16,8 +16,8 @@ export default function(app){
     app.use(cors());
     
     //routes
-    app.use("/api/users", user);
-    app.use("/api/auth", auth);
+    // app.use("/api/users", user);
+    // app.use("/api/auth", auth);
     // app.use('/api/words', word);
     app.use("/api/game", game);
 }
